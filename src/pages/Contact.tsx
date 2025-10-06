@@ -8,50 +8,10 @@ const Contact = () => {
   const { toast } = useToast();
 
   const handleDownloadFlyer = () => {
-    const flyerContent = `
-ClinicDashHi - Smarter Healthcare Access for Hawai'i
-A Predictive Dashboard for Underserved Communities
-
-Why ClinicDash HI?
-• In Hawai'i, many rural and underserved areas still lack reliable access to health clinics, providers, and education.
-• Decisions to send help are often made without clear data.
-• ClinicDash HI provides areas on where to send help
-
-How It Works:
-• Uses real Hawai'i ZIP code data (population, locations, income, insurance rates, etc.)
-• Trains a basic machine learning model to predict and score healthcare needed by code
-• Outputs a map-based dashboard for non-profits to use when planning:
-  - Mobile clinic routes
-  - Tech health outreach
-  - Health education events
-
-Where is help needed most right now?
-Interactive map showing Health Equity Index with color-coded areas indicating healthcare needs across Hawai'i ZIP codes.
-
-Built by Students - Powered by Data.
-We are a studented team combining computer science, healthcare passion, and local knowledge to make access smarter and equitable.
-
-Want to Collaborate?
-We're looking for:
-• Non-profits & Clinics
-• Mentors & Advisors
-• Educators & Students
-
-Contact info:
-Email: clinicdashhi@gmail.com
-Instagram: @808_clinicdashhi
-Website: https://clinicdash-hi.lovable.app/
-
-Hawaii Health Equity Index - 2025 Forecast
-    `;
-    
-    const blob = new Blob([flyerContent], { type: 'text/plain' });
-    const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = url;
-    a.download = 'clinicdashhi_hawaii_health_equity_flyer.txt';
+    a.href = '/clinicdashhi_flyer.png';
+    a.download = 'clinicdashhi_flyer.png';
     a.click();
-    window.URL.revokeObjectURL(url);
     
     toast({
       title: "Flyer Downloaded",
