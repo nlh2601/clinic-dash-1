@@ -9,7 +9,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: "Nathanael Hui",
-      role: "Lead Researcher & Project Director",
+      role: "Lead Project Designer",
       bio: "Driven by a passion for health equity, Nathanael leads the development of ClinicDashHi's predictive model and dashboard. With a strong background in public health data, he oversees project design, data strategy, and machine learning. He's committed to using technology to close care gaps in underserved communities.",
       email: "clinicdashhi@gmail.com",
       image: "/natechef.jpg",
@@ -17,7 +17,7 @@ const Team = () => {
     },
     {
       name: "Jiho Sung",
-      role: "Data Scientist & ML Engineer",
+      role: "Lead Project Developer (Data Scientist & ML Developer)",
       bio: "Jiho builds and trains the machine learning models powering ClinicDashHi. He specializes in predictive analytics and population health forecasting, helping turn raw data into actionable insights that can improve lives across Hawaii.",
       email: "clinicdashhi@gmail.com",
       image: "/jihochef.jpg",
