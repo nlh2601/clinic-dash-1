@@ -10,7 +10,7 @@ const Team = () => {
     {
       name: "Nathanael Hui",
       role: "Lead Project Designer",
-      bio: "Driven by a passion for health equity, Nathanael leads the development of ClinicDashHi's predictive model and dashboard. With a strong background in public health data, he oversees project design, data strategy, and machine learning. He's committed to using technology to close care gaps in underserved communities.",
+      bio: "Driven by a passion for health equity, Nathanael designs ClinicDashHi's user experience and visual dashboard. With a strong background in public health, he oversees the project's design strategy, ensuring the platform is accessible and meaningful for communities across Hawaii. He's committed to creating intuitive tools that close care gaps in underserved areas.",
       email: "clinicdashhi@gmail.com",
       image: "/natechef.jpg",
       initials: "NH"
@@ -18,7 +18,7 @@ const Team = () => {
     {
       name: "Jiho Sung",
       role: "Lead Project Developer (Data Scientist & ML Developer)",
-      bio: "Jiho builds and trains the machine learning models powering ClinicDashHi. He specializes in predictive analytics and population health forecasting, helping turn raw data into actionable insights that can improve lives across Hawaii.",
+      bio: "Jiho leads the technical development of ClinicDashHi, building and training the machine learning models that power the platform. He specializes in predictive analytics, full-stack development, and population health forecasting, transforming raw data into actionable insights that can improve lives across Hawaii.",
       email: "clinicdashhi@gmail.com",
       image: "/jihochef.jpg",
       initials: "JS"
